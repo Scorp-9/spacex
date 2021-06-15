@@ -7,7 +7,7 @@ import './App.css';
 import loader from './loadRocket.gif';
 
 const API_BASE_URL = "https://api.spacexdata.com/v3/launches?limit=100";
-const port = process.env.PORT || 8000;
+
 
 class App extends Component {
 
@@ -225,9 +225,7 @@ class App extends Component {
     }
 
   }
-  app.listen(port, () =>{
-	console.log('listening to the port no at ${port}');
-})
+
 }
 
 
