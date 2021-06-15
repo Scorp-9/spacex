@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-	"start": "node src/App.js"
+	"start": "spacex src/App.js"
   },
   "eslintConfig": {
     "extends": "react-app"
