@@ -225,9 +225,10 @@ class App extends Component {
     }
 
   }
-}
-app.listen(port, () =>{
+  app.listen(port, () =>{
 	console.log('listening to the port no at ${port}');
 })
+}
+
 
 export default App;
